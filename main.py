@@ -1,7 +1,8 @@
 import pandas as pd
 
 
-
+# lst - список списков строк
+# 'head.csv' - заголовки разделенные ;
 def create_csv(lst,filename):
     try:
         df = pd.read_csv('head.csv',delimiter=';')
